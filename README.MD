@@ -1,7 +1,8 @@
 # Crud com Nodejs e Mysql
 
-[NODE](##node)
-[CURL](##curl)
+[NODE](#node)
+
+[CURL](#curl)
 
 
 ## Node
@@ -95,10 +96,10 @@ curl -X "DELETE" http://localhost:8080/crud/companies/4
 curl -X "PUT" http://localhost:8080/crud/companies/5 -H "Content-Type: application/json"  -d '{"title": "title 5","type":"type 5","position":"5"}'
 ```
 
-Referências:
+## Referências:
 
 [Node.js + MySQL CRUD Automation API](https://medium.com/@bharatrawat986/node-js-mysql-crud-automation-api-78b3f69de839)
 
-[CURL](https://phoenixnap.com/kb/curl-command)
+[CURL 1](https://phoenixnap.com/kb/curl-command)
 
-[CURL](https://reqbin.com/curl)
+[CURL 2](https://reqbin.com/curl)
