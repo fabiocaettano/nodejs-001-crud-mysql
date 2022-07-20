@@ -23,7 +23,7 @@ services:
       context: node    
     entrypoint: dockerize -wait tcp://db:3306 -timeout 30s docker-entrypoint.sh
     command: bash -c 'npm start'
-    container_name: node
+    container_name: node    
     ports:
       - "8080:8080"
     networks:
